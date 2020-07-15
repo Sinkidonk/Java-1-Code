@@ -1,0 +1,31 @@
+(build classes for tally and questions to create objects for the survey)
+
+createQuestions()
+create questions (and answers)
+preset default questions
+displayMenu()
+getUserChoice()
+runSurvey()
+
+if they take the survey
+	displaySurvey()
+	getUserChoice()
+	(check to make sure choice is valid - otherwise ask again)
+	(this is a loop that goes 4 times)
+	displayMainMenu()
+	
+if the view the tallies
+	displayTallies()
+	displayMainMenu()
+
+
+if they edit questions
+	validateUser() (password check - optional)
+	displayEditMenu()
+	getUserChoice() ?????? need to use one that is custom for this
+	prompt to edit each item (ques, ans1, ans2, ans3, ans4
+	display edit menu
+
+if they want to exit
+	display a farewell message
+	exit

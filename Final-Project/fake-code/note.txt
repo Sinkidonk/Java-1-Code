@@ -1,0 +1,56 @@
+? where is the big loop that keeps the program running
+****** Classes to create ****
+$$$Tally
+$$$Question
+***************
+
+
+***** METHODS TO WRITE *****
+$$$$$$$$$createQuestion()
+	add question and answers to each objects using sets
+
+$$$$$$$displayMainMenu()
+	put options on the screen in a useful manner
+	1. take survey
+	2. view tally
+	3. edit questions
+	4. exit
+	
+$$$$$$$$public int getUserChoice()
+	use the scanner
+	int userChoice;
+	variable to store input
+	
+$$$runSurvey()
+	will hold the big while loop that keeps it running
+	until user want to exit
+	if not valid (1,2,3,4) loop and prompt the user again
+	else return userChoice
+	
+	
+$$$displaySurvey()
+	put Q & A on screen
+	prompt user choice
+	getUserChoice()
+	send answer choice to tally (increment answer variable)
+	do this again for the next 3 question
+
+$$$$$displayTallies()
+	get values from each objects and display
+	*** this could be part of the tally class ***
+	
+** validateUser() (optional)
+	check to see if password is valid to edit
+
+$$$$$displayEditMenu()
+prompt - select the question you want to edit
+	1. question 1 - 
+	2. question 2
+	3. question 3
+	4. question 4
+	5. clearTallies()???
+	6. exit
+	getEditMenuChoice() check valid
+	do the nitty gritty prompt to edit each item (ques,
+	ans1, ans2, ans3, ans4) and then clearTallies()
+	displayEditMenu()

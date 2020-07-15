@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Demo
+comment0.text=\ \r\npublic\ class\ Demo\ {\r\n\tpublic\ static\ void\ main(String[]\ args)\ \r\n\t{\r\n\t\tMovieQuote();\r\n\t}\r\n\ \ \ public\ static\ void\ MovieQuote()\r\n\ \ \ {\r\n\ \ \ \ \ \ System.out.println("Youre\ killing\ me\ smalls.");\r\n\ \ \ }\r\n}\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=java.lang.String\ MovieQuote()
+numComments=3
